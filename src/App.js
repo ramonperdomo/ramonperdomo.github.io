@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Asteroids from "pages/Asteroids";
 
 function App() {
   return (
-    <div>
-      <header>
-        <img src={logo} alt="logo" />
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Asteroids />}></Route>
+      </Routes>
+    </Router>
   );
 }
 
