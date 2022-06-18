@@ -1,0 +1,11 @@
+/* COMPONENTS */
+.header {
+  display: flex;
+}
+.header .title {
+  margin: 0;
+}
+
+.logo {
+  height: 2em;
+}/*# sourceMappingURL=main.css.map */
