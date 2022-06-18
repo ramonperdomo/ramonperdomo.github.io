@@ -2,9 +2,12 @@
 
 // Header
 .header {
+  align-items: center;
   display: flex;
+  margin-bottom: 16px;
 
   .title {
+    font-size: 2em;
     margin: 0;
   }
 }

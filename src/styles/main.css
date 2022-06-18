@@ -1,8 +1,11 @@
 /* COMPONENTS */
 .header {
+  align-items: center;
   display: flex;
+  margin-bottom: 16px;
 }
 .header .title {
+  font-size: 2em;
   margin: 0;
 }
 
