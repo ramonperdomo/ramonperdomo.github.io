@@ -4,7 +4,7 @@ export default {
   list() {
     // limit filters to the data of relevance in this page (asteroids)
     // only list asteroids (kind=a)
-    const queryParams = "?kind=a";
+    const queryParams = "?kind=a&body=ALL&fullname=true";
 
     return api.get(`cad.api${queryParams}`);
   },
