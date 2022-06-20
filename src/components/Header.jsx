@@ -1,7 +1,6 @@
 import Logo from "components/Logo";
 
 function Header() {
-  console.log("hola");
   return (
     <header className="header">
       <Logo />
